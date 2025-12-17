@@ -1,0 +1,28 @@
+body {
+    background-image: url(Miranjani.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* Puts clock in the middle */
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.Clock {
+    color: antiquewhite;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 3px 3px 5px black;
+    text-align: center;
+}
+
+.ClockContainer {
+    backdrop-filter: blur(2px);
+    width: 100vw;
+    padding: 20px 0;
+}
